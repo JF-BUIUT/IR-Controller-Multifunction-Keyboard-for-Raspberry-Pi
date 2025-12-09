@@ -32,3 +32,11 @@ Voici ses 4 fonctionnalités principales détaillées :
     * **Affichage :** Utilise `pygame` pour créer l'interface graphique.
     * **Capteur :** Gère le protocole temporel précis du DHT11 via `pigpio`.
 * **Structure :** Le code est adaptable. Il détecte automatiquement si les bibliothèques sont installées (si `pigpio` manque, il désactive l'IR mais garde le clavier). Au démarrage, un menu vous demande quel mode de contrôle vous souhaitez utiliser.
+
+# Install Requirements (on Linux)
+```
+>> sudo apt update && sudo apt update
+```
+```
+>> sudo apt install git python3 python3-pip python python-pip
+```
