@@ -33,8 +33,9 @@ Voici ses 4 fonctionnalités principales détaillées :
     * **Capteur :** Gère le protocole temporel précis du DHT11 via `pigpio`.
 * **Structure :** Le code est adaptable. Il détecte automatiquement si les bibliothèques sont installées (si `pigpio` manque, il désactive l'IR mais garde le clavier). Au démarrage, un menu vous demande quel mode de contrôle vous souhaitez utiliser.
 
-⚠️ DISCLAIMER ⚠️
-Je vous conseille de lire le manuel matériel avant la configuration du Raspberry Pi.
+# ⚠️ DISCLAIMER ⚠️
+
+* Je vous conseille de lire le manuel matériel avant la configuration du Raspberry Pi.
 
 ## ⬇️ Pour accéder au manuel des matériels utilisé ⬇️
 
@@ -42,4 +43,4 @@ Je vous conseille de lire le manuel matériel avant la configuration du Raspberr
 
 ## ⬇️ Pour accéder à la configuration du Raspberry Pi & des dispositifs ⬇️
 
-### <a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Configuration-Raspberry-Pi.md">Configuration générale du Raspberry Pi & des dispositifs (DH11, Télécommande,...)</a>
+### <a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Configuration-RaspberryPi.md">Configuration générale du Raspberry Pi & des dispositifs (DH11, Télécommande,...)</a>
