@@ -33,10 +33,6 @@ Voici ses 4 fonctionnalités principales détaillées :
     * **Capteur :** Gère le protocole temporel précis du DHT11 via `pigpio`.
 * **Structure :** Le code est adaptable. Il détecte automatiquement si les bibliothèques sont installées (si `pigpio` manque, il désactive l'IR mais garde le clavier). Au démarrage, un menu vous demande quel mode de contrôle vous souhaitez utiliser.
 
-# Install Requirements (on Linux)
-```
->> sudo apt update && sudo apt update
-```
-```
->> sudo apt install git python3 python3-pip python python-pip
-```
+⬇️ Pour accéder à la configuration du Raspberry Pi & des dispositifs (DH11, Télécommande,...) ⬇️
+
+<a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Readme2.md">Configuration du Raspberry Pi</a>
