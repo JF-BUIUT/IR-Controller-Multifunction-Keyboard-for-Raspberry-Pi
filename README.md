@@ -1,4 +1,4 @@
-# IR-Controller Multifunction for Raspberry-Pi
+# Contrôleur infrarouge multifonction pour Raspberry Pi
 
 Ce code est un programme complet pour **Raspberry Pi** qui transforme l'appareil en un **contrôleur multimédia et domotique interactif**.
 
