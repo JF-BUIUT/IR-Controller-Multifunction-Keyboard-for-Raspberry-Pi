@@ -5,6 +5,7 @@
 * Une carte Micro SD (8-16 Go) & un adaptateur pour flasher la carte micro SD
 * Capteur DH11
 * Capteur IR (Infrarouge)
+* Télécommande
 
 **⚠️ Pour ce tuto, j'ai utilisé un Raspberry Pi 3 Model B ⚠️**
 
@@ -22,7 +23,6 @@ Sélectionner ensuite votre model de Raspberry Pi puis Raspberry Pi OS (other) e
 Configurer les paramètres du Raspberry et flashez le.
 
 ## Étape 2 : Cablage du matériel
-
 
 **⚠️ Rappel : selon le model de Raspberry que vous avez les branchements diffère... ⚠️**
 
