@@ -12,13 +12,13 @@
 ## Étape 1 : Installation de L'OS
 Sur un PC rendez-vous sur le site de Raspberry et installer Raspberry Pi Imager : https://www.raspberrypi.com/software/
 
-<img width="895" height="568" alt="Raspberry Pi Imager v2 0 0 13_12_2025 23_49_13" src="https://github.com/user-attachments/assets/1aa476f9-cbf8-4db9-8fd2-656743130475" />
+<img width="600" height="400" alt="Raspberry Pi Imager" src="https://github.com/user-attachments/assets/1aa476f9-cbf8-4db9-8fd2-656743130475" />
 
 Brancher l'adaptateur ainsi que la carte SD.
 
 Sélectionner ensuite votre model de Raspberry Pi puis Raspberry Pi OS (other) ensuite sélectionner **Raspberry Pi OS FULL (32-Bit)**
 
-<img width="440" height="105" alt="Raspberry Pi Imager v2 0 0 13_12_2025 23_59_15" src="https://github.com/user-attachments/assets/d68888e5-05c8-4d06-b585-46c4d7f4853e" />
+<img width="440" height="105" alt="Raspberry Pi Imager" src="https://github.com/user-attachments/assets/d68888e5-05c8-4d06-b585-46c4d7f4853e" />
 
 Configurer les paramètres du Raspberry et flashez le.
 
@@ -26,16 +26,38 @@ Configurer les paramètres du Raspberry et flashez le.
 
 **⚠️ Rappel : selon le model de Raspberry que vous avez les branchements diffère... ⚠️**
 
-![Raspberry-Pi-GPIO-pinouts-Diagram](https://github.com/user-attachments/assets/37af9519-419b-4464-823e-22a2fc6da2f8)
+<img width="800" height="800" alt="RPi DataSheet Pinout" src="https://github.com/user-attachments/assets/37af9519-419b-4464-823e-22a2fc6da2f8" />
+
 Source : https://www.14core.com/datasheets-pin-outs/raspberry-pi-gpio-pinouts-diagram/
 
-### Étape 2.1 : Cablage du DH11 
+**⚠️ Vous pouvez directement voir le datasheet du modèle de votre Raspberry Pi en tapant **"pinout"** dans le terminal ⚠️**
 
+### Étape 2.1 : Câblage du capteur DH11 
 
+<img width="400" height="400" alt="DH11" src="https://github.com/user-attachments/assets/ee20002e-2ee4-471d-8fbe-1b37f58bdb65" />
 
+**VCC (+)** correspond à l'alimentation, **DATA/OUT** correspond à la sortie, **GND (-)** correspond à la masse.
 
+### **Câblage recommandé**
 
+**VCC (+)** = Pin 1 **(3V3)**
 
+**DATA/OUT** = Pin 13 **(GPIO 27)**
 
+**GND (-)** = Pin 6 **(GND)**
+
+### Étape 2.2 : Câblage du capteur IR
+
+<img width="400" height="400" alt="DH11" src="https://github.com/user-attachments/assets/ee20002e-2ee4-471d-8fbe-1b37f58bdb65" />
+
+**VCC (+)** correspond à l'alimentation, **DATA/OUT** correspond à la sortie, **GND (-)** correspond à la masse.
+
+### **Câblage recommandé**
+
+**VCC (+)** = Pin 4 **(5V)**
+
+**DATA/OUT** = Pin 12 **(GPIO 18)**
+
+**GND (-)** = Pin 14 **(GND)**
 
 
