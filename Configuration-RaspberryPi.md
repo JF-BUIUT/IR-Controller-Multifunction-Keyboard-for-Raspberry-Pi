@@ -30,7 +30,10 @@ pip3 install bleak Pillow pygame pigpio
 
 ### Étape [4/4] : Lancement du programme
 ```
-pip3 install bleak Pillow pygame pigpio
+python3 ./IRCMRPi.py
 ```
 
- #
+# Présentation du programme
+
+
+
