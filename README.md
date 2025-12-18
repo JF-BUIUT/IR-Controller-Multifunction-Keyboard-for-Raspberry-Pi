@@ -22,7 +22,7 @@ Voici ses 4 fonctionnalités principales détaillées :
 * **Cible :** Il cherche spécifiquement l'appareil que vous souhaitez. (configurable).
 * **Affichage :** S'il capte les données de cet appareil, il les affiche en temps réel sur l'écran.
 
-### 4. (Bonus) Jeu "Snake" 
+### 4. Jeu Snake
 * **Fonction :** Lance un mini-jeu Snake classique.
 * **Contrôle :** Le serpent se dirige avec les flèches directionnelles (Haut, Bas, Gauche, Droite) de la télécommande ou du clavier.
 
@@ -38,8 +38,8 @@ Voici ses 4 fonctionnalités principales détaillées :
 
 ## ⬇️ Présentation du matériel requis & câblage ! ⬇️
 
-### <a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Manuel-materiels.md">Manuel du matériel requis</a>
+<a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Manuel-materiels.md">Manuel du matériel requis</a>
 
 ## ⬇️ Installation & Configuration du Raspberry Pi et des dispositifs ⬇️
 
-### <a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Configuration-RaspberryPi.md">Configuration du Raspberry Pi & des dispositifs (DH11, Télécommande,...)</a>
+<a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Configuration-RaspberryPi.md">Configuration du Raspberry Pi & des dispositifs (DH11, Télécommande,...)</a>
