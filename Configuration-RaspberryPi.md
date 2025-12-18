@@ -40,7 +40,7 @@ Vous avez la possibilité d'utiliser n'importe quelle télécommande NEC.
 
 <img width="631" height="186" alt="Code NEC" src="https://github.com/user-attachments/assets/183f444b-aaae-4ebb-9470-552403468d7f" />
 
-Récupérer uniquement les codes hexadécimaux selon la touche quz vous souhaiter configurer et les rentrer dans le programme `IRCMRPi.py` comme ceci:
+Récupérez uniquement les codes hexadécimaux en appuyant sur la touche que vous souhaitez configurer et insérez-les dans le programme `IRCMRPi.py` de cette manière :
 
 <img width="693" height="730" alt="Configuration code" src="https://github.com/user-attachments/assets/efd60604-868f-45f6-9a72-fa6746cc86fe" />
 
@@ -59,7 +59,7 @@ python3 ./IRCMRPi.py
 <img width="850" height="687" alt="Ecran d'acceuil" src="https://github.com/user-attachments/assets/51150c27-c7b6-4f46-ae95-89002a6d2cdd" />
 
 Le programme propose :
-- Un mode Télécommande I
+- Un mode Télécommande IR
 - Un mode clavier
 - Un mode Console
 
