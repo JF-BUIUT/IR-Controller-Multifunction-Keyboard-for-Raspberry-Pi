@@ -63,4 +63,6 @@ Source : https://www.14core.com/datasheets-pin-outs/raspberry-pi-gpio-pinouts-di
 
 ### **Montage final**
 
-<img width="400" height="800" alt="Diagram" src="https://github.com/user-attachments/assets/7dcd802f-1592-40c3-b669-fd65bbf3c435" />
+<img width="1239" height="922" alt="526366686-7dcd802f-1592-40c3-b669-fd65bbf3c435" src="https://github.com/user-attachments/assets/af7e51b3-4d91-46ef-8736-0c6390fcaacf" />
+
+
