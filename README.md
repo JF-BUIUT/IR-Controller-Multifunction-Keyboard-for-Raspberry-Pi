@@ -8,12 +8,12 @@ Voici ses 4 fonctionnalités principales détaillées :
 
 ### 1. Affichage d'Images 
 * **Fonction :** Affiche des images spécifiques en plein écran.
-* **Utilisation :** Vous appuyez sur 1, 2 ou 3 (sur la télécommande ou le clavier) et le programme charge l'image associée.
+* **Utilisation :** En appuyant sur 1, 2 ou 3 (sur la télécommande ou le clavier), l'image associée est chargée par le programme.
 
 ### 2. Station Météo via Capteur DHT11 
 * **Fonction :** Lit la température et l'humidité ambiante.
 * **Fonctionnement :**
-    * Il interroge un capteur physique **DHT11**.
+    * Il interroge un capteur physique `DHT11`.
     * Si le capteur ne répond pas (ou n'est pas branché), il passe en "mode simulation" et affiche des valeurs aléatoires pour tester l'interface.
     * Il affiche les résultats avec un code couleur (rouge si chaud, bleu si humide, etc.).
 
@@ -34,12 +34,12 @@ Voici ses 4 fonctionnalités principales détaillées :
 * **Structure :** Le code est adaptable. Il détecte automatiquement si les bibliothèques sont installées (si `pigpio` manque, il désactive l'IR mais garde le clavier). Au démarrage, un menu vous demande quel mode de contrôle vous souhaitez utiliser.
 
 # ⚠️ DISCLAIMER ⚠️
-Je vous conseille de lire le manuel matériel avant la configuration du Raspberry Pi.
+**Je vous conseille de lire le manuel matériel avant la configuration du Raspberry Pi.**
 
-## ⬇️ Pour accéder au manuel des matériels utilisé ⬇️
+## ⬇️ Présentation du matériel requis & câblage ! ⬇️
 
-### <a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Manuel-materiels.md">Manuel des matériels</a>
+### <a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Manuel-materiels.md">Manuel du matériel requis</a>
 
-## ⬇️ Pour accéder à la configuration du Raspberry Pi & des dispositifs ⬇️
+## ⬇️ Installation & Configuration du Raspberry Pi et des dispositifs ⬇️
 
-### <a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Configuration-RaspberryPi.md">Configuration générale du Raspberry Pi & des dispositifs (DH11, Télécommande,...)</a>
+### <a href="https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi/blob/main/Configuration-RaspberryPi.md">Configuration du Raspberry Pi & des dispositifs (DH11, Télécommande,...)</a>
