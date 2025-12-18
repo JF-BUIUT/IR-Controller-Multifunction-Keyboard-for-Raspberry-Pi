@@ -79,6 +79,19 @@ https://drive.google.com/file/d/1UK4dXc6K4iTbgxIoJfFUBS6DqsXQRXYX/view?usp=shari
 
 <img width="712" height="226" alt="Mode Console" src="https://github.com/user-attachments/assets/1103005d-dc53-4191-931c-2c6093198f2e" />
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Mode BLE
+<img width="792" height="591" alt="Mode BLE" src="https://github.com/user-attachments/assets/92368e8f-965a-400b-aec3-48b05995ef9c" />
+
+### Mode DH11
+<img width="797" height="597" alt="MODE DH11" src="https://github.com/user-attachments/assets/1a8c1298-b4b0-4a03-afe6-9c1708dd2558" />
+
+### Jeu Snake
+https://github.com/user-attachments/assets/b6927443-3d29-4b7b-9729-18107588a307
+
+
+
 
 
 
