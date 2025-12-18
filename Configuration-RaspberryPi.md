@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-git clone https://github.com/JF-BUIUT/IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi.git
+https://github.com/JF-BUIUT/Controleur-IR-multifonction-RPi.git
 cd IR-Controller-Multifunction-Keyboard-for-Raspberry-Pi
 chmod +x ./requirement.sh
 ```
@@ -14,14 +14,14 @@ sudo apt install git
 ```
 sudo ./requirement.sh
 ```
-Ce script bash sert a ... 
+Ce script bash sert à mettre à jour votre Raspberry et installe les bibliothèques nécessaires.
  
-### Étape [2/4] : Création de l'environement python
+### Étape [2/4] :Création de l'environnement Python
 ```
 python3 -m venv .venv
 ```
 ```
-source venv/bin/activate
+source ./.venv/bin/activate
 ```
 ### Étape [3/4] : Installation des paquets requis (Environement requis)
 ```
