@@ -10,31 +10,40 @@ Si vous obtenez l'erreur : La commande « git » n'a pas été trouvée. Vous 
 ```
 sudo apt install git
 ```
-### Étape [1/4] : Installation des prérequis. 
+### Étape (1/4) : Installation des prérequis. 
 ```
 sudo ./requirement.sh
 ```
 Ce script bash sert à mettre à jour votre Raspberry et installe les bibliothèques nécessaires.
  
-### Étape [2/4] :Création de l'environnement Python
+### Étape (2/4) : Création de l'environnement Python
 ```
 python3 -m venv .venv
 ```
 ```
 source ./.venv/bin/activate
 ```
-### Étape [3/4] : Installation des paquets requis (Environnement requis)
+### Étape (3/4) : Installation des paquets requis (Environnement requis)
 ```
 pip3 install bleak Pillow pygame pigpio
 ```
 
-## Configuration de la télécommande
+### Étape (4/4) Configuration de la télécommande
+```
+python3 IRCODENEC.py
+```
+Vous avez la possibilité d'utiliser n'importe quelle télécommande NEC.
 
-### Étape [4/4] : Lancement du programme
+<img width="300" height="300" alt="IMG_3090-removebg-preview" src="https://github.com/user-attachments/assets/325abebb-1d77-4c28-a8da-9433535a4e87" />
+
+**Lorsque le dispositif IR est configuré, lancez ce programme qui vous permettra d'avoir les codes NEC en appuyant sur une touche de votre télécommande.**
+
+<img width="631" height="186" alt="Code NEC" src="https://github.com/user-attachments/assets/183f444b-aaae-4ebb-9470-552403468d7f" />
+
+### Lancement du programme
 ```
 python3 ./IRCMRPi.py
 ```
-
 # Présentation du programme
 
 ### Ecran d'acceuil du programme
