@@ -51,9 +51,9 @@ except ImportError:
 # ===== CONFIGURATION =====
 # Chemin des images (à modifier selon vos fichiers)
 IMAGE_PATHS = {
-    '1': '', # Image 1
-    '2': '', # Image 2
-    '3': '', # Image 3
+    '1': 'IMAGES/logo rt.jpg', # Image 1
+    '2': 'IMAGES/RTmascot.jpg', # Image 2
+    '3': 'IMAGES/RTvsGEII.jpeg', # Image 3
 }
 
 # Configuration DHT11
